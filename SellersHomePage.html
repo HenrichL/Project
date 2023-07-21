@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Seller Page</title>
+  <style>
+    /* CSS styles go here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      color: white;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .product {
+      flex-basis: 300px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      color: white;
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #f4f4f4;
+      padding: 20px;
+      text-align: center;
+    }
+    .Ahulu{
+      margin-bottom: 70px;
+      margin-left: 70px;
+      font-size: 50px;
+    }
+    .btnSell{
+      margin-left: 1000px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 20px;
+      width: 80px;
+      border: none;
+      opacity: 0.8;
+
+    }
+    .btnSell:hover{
+      opacity: 0.5;
+      cursor:pointer;
+    }
+    .Home{
+      margin-right: 30px;
+
+    }
+    .searchbox{
+      width: 300px;
+      margin-left: 500px;
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 50px;
+      border: none;
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Header content goes here -->
+    <h1 class="Ahulu"> Ahulu <p>
+    <input class="searchbox" type="search" placeholder="Search"></p>
+    
+    
+    
+    </h1>
+   
+  </header>
+
+  <main>
+    <!-- Main content goes here -->
+    <section>
+      <h2>Featured Products</h2>
+      <div class="product-list">
+        <!-- Product listing goes here -->
+        <div class="product">
+         
+          <h3>Seller 1</h3>
+
+          
+           <button onclick="addToCart('Product 1')">Add to Cart</button>
+        </div>
+      
+        <div>
+          This user doesn’t have adverts now
+  
+          
+          
+        </div>
+
+        <!-- Add more products as needed -->
+      </div>
+      <div>
+
+
+        <h3>Seller 1</h3>
+
+          
+        <button onclick="addToCart('Product 1')">Add to Cart</button>
+     </div>
+
+      </div>
+      <div>
+
+
+        <h3>Seller 1</h3>
+
+          
+        <button onclick="addToCart('Product 1')">Add to Cart</button>
+     </div>
+
+      </div>
+    </div>
+    <div>
+
+
+      <h3>Seller 1</h3>
+
+        
+      <button onclick="addToCart('Product 1')">Add to Cart</button>
+   </div>
+
+    </div>
+      
+
+    </section>
+  </main>
+
+  <footer>
+    <!-- Footer content goes here -->
+    <p>&copy; 2023 C2C Website. All rights reserved.</p>
+  </footer>
+  <script>
+    // JavaScript code goes here
+    function addToCart(productName) {
+      alert(productName + " added to cart!");
+    }
+    
+  </script>
+</body>
+</html>

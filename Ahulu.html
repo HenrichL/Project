@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AHULU</title>
+  <style>
+    /* CSS styles go here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .product {
+      flex-basis: 300px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      color: white;
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #f4f4f4;
+      padding: 20px;
+      text-align: center;
+    }
+    .Ahulu{
+      margin-bottom: 70px;
+      margin-left: 70px;
+      font-size: 50px;
+    }
+    .btnSell{
+      margin-left: 1000px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 20px;
+      width: 80px;
+      border: none;
+      opacity: 0.8;
+
+    }
+    .btnSell:hover{
+      opacity: 0.5;
+      cursor:pointer;
+    }
+    .Home{
+      margin-right: 30px;
+
+    }
+    .searchbox{
+      width: 300px;
+      margin-left: 500px;
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 50px;
+      border: none;
+    }
+    .btnCart{
+      
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 20px;
+      width: 80px;
+      border: none;
+      opacity: 0.8;
+
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Header content goes here -->
+    <h1 class="Ahulu"> Ahulu <a href="http://127.0.0.1:5500/SellersSignUp.html" target="_blank"><button class="btnSell">﹢  sell</button></a>
+    <input class="searchbox" type="search" placeholder="Search">
+    
+    
+    
+    </h1>
+    
+    <nav>
+      <ul>
+        <li class="Home"><a href="#">Home</a></li>
+        <li class="Home"><a href="#">Products</a></li>
+        <li class="Home"><a href="#">Categories</a></li>
+        <li class="Home"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Main content goes here -->
+    <section>
+      <h2>Featured Products</h2>
+      <div class="product-list">
+        <!-- Product listing goes here -->
+        <div class="product">
+          <img src="images/calculator.jpg" alt="Product 1">
+          <h3>Product 1</h3>
+          <p>
+            An advanced scientific calculator packed with powerful features for students, engineers, and professionals. From complex calculations to user-friendly design, this calculator is your go-to tool for enhanced precision and efficiency.
+
+
+           </p>
+           <button class="btnCart" onclick="addToCart('Product 1', 150)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img src="images/Xbox console.webp" alt="Product 2">
+          <h3>Product 2</h3>
+          <p> Immerse yourself in the world of gaming with the Xbox Series S. Experience stunning visuals, lightning-fast loading times, and a vast library of games in a compact and sleek console that's perfect for casual and hardcore gamers alike.</p>
+          <button class="btnCart" onclick="addToCart('Product 2')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img src="images/manga.jpg" alt="Product 3">
+          <h3>Product 3</h3>
+          <p>Dive into captivating storytelling and vibrant artwork with this engaging manga series. From thrilling adventures to heartfelt narratives, this collection is a must-have for manga enthusiasts seeking unforgettable tales from the world of Japanese comics.</p>
+          <button class="btnCart" onclick="addToCart('Product 3')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img src="images/condom.jpg" alt="Product 4">
+          <h3>Product 4</h3>
+          <p>Ensure a safe and pleasurable experience with Durex condoms. Made from high-quality materials and featuring reliable protection, these condoms offer peace of mind and enhanced intimacy for a satisfying and responsible encounter.</p>
+          <button class="btnCart" onclick="addToCart('Product 4')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img src="images/perfumes.jpg" alt="Product 5">
+          <h3>Product 5</h3>
+          <p> Indulge your senses with the captivating aroma of this exquisite perfume. With its alluring blend of notes, this fragrance is designed to leave a lasting impression, enveloping you in a delightful and enticing scent.</p>
+          <button class="btnCart" onclick="addToCart('Product 5')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img src="images/earbuds.jpg" alt="Product 6">
+          <h3>Product 6</h3>
+          <p>Elevate your music experience with these cutting-edge wireless earbuds. Offering crystal-clear sound quality and a comfortable, ergonomic design, these earbuds provide the perfect blend of convenience and immersive audio for your on-the-go lifestyle.</p>
+        <button class="btnCart" onclick="addToCart('Product 6')">Add to Cart</button>
+      </div>
+
+        <!-- Add more products as needed -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Footer content goes here -->
+    <p>&copy; 2023 C2C Website. All rights reserved.</p>
+  </footer>
+  <script>
+    // JavaScript code goes here
+    function addToCart(productName) {
+      alert(productName + " added to cart!");
+    }
+    
+  </script>
+</body>
+</html>

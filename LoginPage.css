@@ -1,0 +1,161 @@
+body{
+ background-image: url(images/buying.jpg);
+ background-size:cover;
+ object-fit:contain;
+ object-position: bottom;
+ background-color: rgba(0, 0, 0, 0);
+ 
+}
+.form1 {
+ border: none;
+ border-radius: 20px;
+ width: 400px;
+ height: 500px;
+ margin-left: 550px;
+ margin-top: 100px;
+ background-image: ;
+ opacity: 0.9;
+ background-color: rgba(0, 0, 0, 0.7);
+
+  
+}
+.login{
+  color: white;
+  font-size: large;
+  margin-left:170px;
+  margin-right: 10px;
+}
+.username {
+  padding-left: 20px;
+  margin-right: 10px;
+  margin-left: 50px;
+  color: white;
+  
+}
+.namebox {
+  border-style: solid;
+  margin-right: 20px;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.password{  padding-left: 20px; 
+  margin-right: 10px;
+  margin-left: 50px;
+  color: white;
+   
+}
+  .passbox{
+     border-style: solid;
+     margin-bottom: none;
+     padding-bottom: none;
+     margin-right: 20px;
+     margin-left: 3px;
+     border-radius: 5px;
+     padding-left: 5px;
+   }
+
+  .Forgot{
+    margin-left: 215px;
+    margin-top: none;
+    padding-top: none;
+    color: white;
+    cursor: pointer;
+    
+  }
+  
+  .Forgot:hover{
+    color: rgba(162, 162, 162, 0.527)
+  }
+  .btnlogin{ padding-right: 55px;
+  padding-left: 55px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left:132px ;
+  margin-top: 50px;
+  margin-bottom: none;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+.signup{
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left:130px ;
+  margin-top: none;
+  margin-bottom: 110px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+.signup:hover{
+  opacity: 0.8;
+}
+.signup:active{
+  opacity: 0.5;
+}
+.btnlogin:hover{opacity: 0.8;}
+.btnlogin:active{opacity: 0.5;}
+.Facebook{
+background-color: white;
+color: blue;
+border-radius: 2px;
+border-width: 1px;
+border-color: rgb(0, 0, 255);
+border-style: solid;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 9px;
+padding-bottom: 9px;
+cursor: pointer;
+margin-right: 12px;
+ margin-left:75px;}
+ .Facebook:hover{
+  background-color: blue;
+color: white;
+ }
+.Youtube{ background-color: rgb(204, 0, 0);
+color: white;
+border: none;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 16;
+padding-right: 16;
+border-radius: 2px;
+cursor: pointer;
+margin-right: 12px;}
+.Youtube:hover{
+background-color: white;
+color: rgb(204, 0, 0);
+}
+.Twitter{ background-color: rgb(71, 160, 255);
+color: white;
+border: none;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 16;
+padding-right: 16;
+border-radius: 2px;
+cursor: pointer;
+margin-right: 12px;}
+.Twitter:hover{
+  background-color: white;
+  color:rgb(71, 160, 255) ;
+}
+.signin{ padding-left: 100px;
+  margin-top: none;
+  margin-left: 60px;
+  color: white;
+
+
+}
